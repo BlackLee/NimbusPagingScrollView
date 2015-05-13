@@ -14,6 +14,11 @@
 		C1F24ABE1B02FC9A001BF5E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F24ABD1B02FC9A001BF5E9 /* Images.xcassets */; };
 		C1F24AC11B02FC9A001BF5E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F24ABF1B02FC9A001BF5E9 /* LaunchScreen.xib */; };
 		C1F24ACD1B02FC9B001BF5E9 /* NimbusPagingScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24ACC1B02FC9B001BF5E9 /* NimbusPagingScrollViewTests.m */; };
+		C1F24ADD1B02FCF8001BF5E9 /* NIPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24AD91B02FCF8001BF5E9 /* NIPagingScrollView.m */; };
+		C1F24ADE1B02FCF8001BF5E9 /* NIPagingScrollViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24ADC1B02FCF8001BF5E9 /* NIPagingScrollViewPage.m */; };
+		C1F24AE11B02FD55001BF5E9 /* NIViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24AE01B02FD55001BF5E9 /* NIViewRecycler.m */; };
+		C1F24AE41B02FDD6001BF5E9 /* NIFoundationMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24AE31B02FDD6001BF5E9 /* NIFoundationMethods.m */; };
+		C1F24AE81B02FE6D001BF5E9 /* NIDebuggingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F24AE71B02FE6D001BF5E9 /* NIDebuggingTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,19 @@
 		C1F24AC61B02FC9B001BF5E9 /* NimbusPagingScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbusPagingScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F24ACB1B02FC9B001BF5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1F24ACC1B02FC9B001BF5E9 /* NimbusPagingScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbusPagingScrollViewTests.m; sourceTree = "<group>"; };
+		C1F24AD71B02FCF8001BF5E9 /* NimbusPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusPagingScrollView.h; sourceTree = "<group>"; };
+		C1F24AD81B02FCF8001BF5E9 /* NIPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPagingScrollView.h; sourceTree = "<group>"; };
+		C1F24AD91B02FCF8001BF5E9 /* NIPagingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPagingScrollView.m; sourceTree = "<group>"; };
+		C1F24ADA1B02FCF8001BF5E9 /* NIPagingScrollView+Subclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NIPagingScrollView+Subclassing.h"; sourceTree = "<group>"; };
+		C1F24ADB1B02FCF8001BF5E9 /* NIPagingScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIPagingScrollViewPage.h; sourceTree = "<group>"; };
+		C1F24ADC1B02FCF8001BF5E9 /* NIPagingScrollViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIPagingScrollViewPage.m; sourceTree = "<group>"; };
+		C1F24ADF1B02FD55001BF5E9 /* NIViewRecycler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIViewRecycler.h; sourceTree = "<group>"; };
+		C1F24AE01B02FD55001BF5E9 /* NIViewRecycler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIViewRecycler.m; sourceTree = "<group>"; };
+		C1F24AE21B02FDD6001BF5E9 /* NIFoundationMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIFoundationMethods.h; sourceTree = "<group>"; };
+		C1F24AE31B02FDD6001BF5E9 /* NIFoundationMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIFoundationMethods.m; sourceTree = "<group>"; };
+		C1F24AE51B02FE1A001BF5E9 /* NIPreprocessorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIPreprocessorMacros.h; sourceTree = "<group>"; };
+		C1F24AE61B02FE6D001BF5E9 /* NIDebuggingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDebuggingTools.h; sourceTree = "<group>"; };
+		C1F24AE71B02FE6D001BF5E9 /* NIDebuggingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDebuggingTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		C1F24AAF1B02FC9A001BF5E9 /* NimbusPagingScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				C1F24AD61B02FCD9001BF5E9 /* Classes */,
 				C1F24AB41B02FC9A001BF5E9 /* AppDelegate.h */,
 				C1F24AB51B02FC9A001BF5E9 /* AppDelegate.m */,
 				C1F24AB71B02FC9A001BF5E9 /* ViewController.h */,
@@ -117,6 +136,26 @@
 				C1F24ACB1B02FC9B001BF5E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1F24AD61B02FCD9001BF5E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1F24AE61B02FE6D001BF5E9 /* NIDebuggingTools.h */,
+				C1F24AE71B02FE6D001BF5E9 /* NIDebuggingTools.m */,
+				C1F24AE51B02FE1A001BF5E9 /* NIPreprocessorMacros.h */,
+				C1F24AE21B02FDD6001BF5E9 /* NIFoundationMethods.h */,
+				C1F24AE31B02FDD6001BF5E9 /* NIFoundationMethods.m */,
+				C1F24ADF1B02FD55001BF5E9 /* NIViewRecycler.h */,
+				C1F24AE01B02FD55001BF5E9 /* NIViewRecycler.m */,
+				C1F24AD71B02FCF8001BF5E9 /* NimbusPagingScrollView.h */,
+				C1F24AD81B02FCF8001BF5E9 /* NIPagingScrollView.h */,
+				C1F24AD91B02FCF8001BF5E9 /* NIPagingScrollView.m */,
+				C1F24ADA1B02FCF8001BF5E9 /* NIPagingScrollView+Subclassing.h */,
+				C1F24ADB1B02FCF8001BF5E9 /* NIPagingScrollViewPage.h */,
+				C1F24ADC1B02FCF8001BF5E9 /* NIPagingScrollViewPage.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F24AB91B02FC9A001BF5E9 /* ViewController.m in Sources */,
+				C1F24AE81B02FE6D001BF5E9 /* NIDebuggingTools.m in Sources */,
+				C1F24AE41B02FDD6001BF5E9 /* NIFoundationMethods.m in Sources */,
+				C1F24ADE1B02FCF8001BF5E9 /* NIPagingScrollViewPage.m in Sources */,
+				C1F24AE11B02FD55001BF5E9 /* NIViewRecycler.m in Sources */,
 				C1F24AB61B02FC9A001BF5E9 /* AppDelegate.m in Sources */,
+				C1F24ADD1B02FCF8001BF5E9 /* NIPagingScrollView.m in Sources */,
 				C1F24AB31B02FC9A001BF5E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
