@@ -50,4 +50,3 @@
 #import "NIPagingScrollView.h"
 #import "NIPagingScrollViewPage.h"
 
-#import "NimbusCore.h"
